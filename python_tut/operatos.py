@@ -14,3 +14,11 @@ print(x)
 x = 10 + 3 * 2
 x =(10+3)*2
 print(x)
+
+### Comparison Operators
+x = 3>2
+x=3>=2
+x=3<=2
+x=3 ==2
+x=3!=2
+print(x)
