@@ -11,3 +11,19 @@ elif temparature > 10:
 else:
     print("It's cold")
 print("Done")
+
+### Exercise
+# Ask user for weight
+# Check if it is in Kg or Lb
+
+weight = float(input("Enter your weight: "))
+unit = input("(K)g or (L)b: ")
+
+if unit == "K" or unit == "k":
+    conv = weight * 2.205
+    print("Your weight is " + str(conv) + "Lb")
+elif unit == "L" or unit == "l":
+    conv = weight / 2.205
+    print("Your weight is " + str(conv) + "Kg")
+else:
+    print("Please enter a valid unit (L or K)")
